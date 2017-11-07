@@ -3,7 +3,7 @@ let sel=document.querySelectorAll(selector)[0];
   return sel;
 }
 function nestedTarget(){
-let sel=document.querySelectorAll('#nested > .target');
+let sel=document.querySelectorAll('#nested');
   //let sel=document.getElementsByClassName("target");
   // let sel=document.getElementById('nested').getElementsByClassName('target');
   return sel;
@@ -20,4 +20,9 @@ for(let i=0;i<n;n++){
 //div.className = "alert alert-success";
 //div.innerHTML = "<strong>Ура!</strong> Вы прочитали это важное сообщение.";
 }
-function deepestChild(){}
+function deepestChild(){
+
+
+
+  
+}
