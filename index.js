@@ -10,7 +10,7 @@ function nestedTarget(){
 }
 
 function increaseRankBy(n){
-  let ul='ranked-list'
+  //let ul='ranked-list'
   var ul = document.getElementsByClassName('ranked-list');
 for(let i=0;i<n;n++){
   var li = document.createElement('li');
