@@ -4,7 +4,7 @@ let sel=document.querySelectorAll(selector)[0];
 }
 function nestedTarget(){
   let sel1=document.querySelector('#nested');
-    sel2=sel1.querySelector('.target');
+  let  sel2=sel1.querySelector('.target');
     return sel2;
 }
 
