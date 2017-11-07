@@ -20,9 +20,10 @@ function deepestChild(){
 
   var node=document.querySelector('#grand-node');
   var nextnode=node.children[0];
-  while (nextnode) {
-  node=nextnode;
-  nextnode=node.children[0];
+for(i=0;i<node.length;i++){
+     nextnode=node.children[i];
+  
+}
+return nextnode;
 
-
-}}
+}
