@@ -10,13 +10,10 @@ let sel=document.querySelectorAll('#nested');
 }
 
 function increaseRankBy(n){
-  //let ul='ranked-list'
-  var ul = document.getElementsByClassName('ranked-list');
-for(let i=0;i<n;n++){
-  var li = document.createElement('li');
-
-  ul.appendChild(li);
-  }
+  var rankedlist= document.querySelectorAll('.ranked-list li')
+  for (var i = 0; i < rankedlist.length; i++) {
+    rankedlist[i].innerHTML=parseInt(rankedlist[i].innerHTML)+n
+  }return rankedlist
 //div.className = "alert alert-success";
 //div.innerHTML = "<strong>Ура!</strong> Вы прочитали это важное сообщение.";
 }
