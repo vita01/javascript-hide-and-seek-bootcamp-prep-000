@@ -3,10 +3,9 @@ let sel=document.querySelectorAll(selector)[0];
   return sel;
 }
 function nestedTarget(){
-let sel=document.querySelectorAll('#nested');
-  //let sel=document.getElementsByClassName("target");
-  // let sel=document.getElementById('nested').getElementsByClassName('target');
-  return sel;
+  let sel1=document.querySelector('#nested');
+    sel2=sel1.querySelector('.target');
+    return sel2;
 }
 
 function increaseRankBy(n){
