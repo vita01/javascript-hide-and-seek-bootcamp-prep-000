@@ -14,7 +14,7 @@ function increaseRankBy(n){
   //var ul = document.getElementsByClassName('ranked-list');
 for(let i=0;i<n;n++){
   var li = document.createElement('li');
-  
+
   ul.appendChild(li);
   }
 //div.className = "alert alert-success";
