@@ -1,5 +1,5 @@
 function getFirstSelector(selector){
-let sel=$(selector).children();
+let sel=document.querySelectorAll(selector)[0];
   return sel;
 }
 function nestedTarget(){}
